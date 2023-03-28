@@ -1,0 +1,39 @@
+<html>
+<head>
+<meta name="author" content="Matthew Ward">
+<meta charset="UTF-8">
+<title>The Solar System</title>
+</head>
+<style>
+	/*Small CSS reset */
+	body {
+  		margin: 0px;
+  		padding: 0px;
+  		box-sizing: border-box;
+		background-image:url("images/stars.jpg");
+	}
+
+	#head {
+		text-align:center;
+		background-color:black;
+		color:white;
+	}
+	
+	#img {
+		width:100%;
+		text-align:center;
+	}
+</style>
+<body>
+	<div id="head">
+		<h1>The Solar System</h1>
+	</div>
+	
+	<div id="img">
+		<img src="images/solarsystem.png" alt="planets" usemap="#planet" width="100%">
+		<map name="#planet">
+			<area shape="circle" coords="444, 404, 85" href="https://www.nhc.noaa.gov/">
+		</map>
+	</div>
+</body>
+<html>
