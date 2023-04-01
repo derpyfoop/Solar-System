@@ -24,27 +24,36 @@
 		width:100%;
 		text-align:center;
 	}
+	a:link, a:visited {
+		text-decoration: none;
+		color: orange;
+	}
+	
+	a:hover {
+		color: red;
+	}
 </style>
 </head>
 <body>
 	<div id="head">
 		<h1>The Solar System</h1>
 		<h2>Please click on the planet or star you would like to learn about!</h2>
+		<h3>Or simply start at the very center of the Solar System <a href="pages/sun.html">the Sun!</a></h3>
 	</div>
 	
 	<div id="img">
 		<img src="images/solarsystem.png" alt="planets" usemap="#planet" width="890.4px">
 		<map name="#planet">
 			<area shape="circle" coords="444, 404, 85" href="pages/sun.html">
-			<area shape="circle" coords="320, 549, 25" href="https://en.wikipedia.org/wiki/Earth" alt="earth">
-			<area shape="circle" coords="560, 299, 30" href="https://en.wikipedia.org/wiki/Venus" alt="venus">
-			<area shape="circle" coords="222, 458, 23" href="https://en.wikipedia.org/wiki/Mars" alt="mars">
-			<area shape="circle" coords="446, 282, 21" href="https://en.wikipedia.org/wiki/Mercury_(planet)" alt="mercury">
-			<area shape="circle" coords="669, 267, 37" href="https://en.wikipedia.org/wiki/Jupiter" alt="jupiter">
-			<area shape="circle" coords="759, 355, 32" href="https://en.wikipedia.org/wiki/Saturn" alt="saturn">
-			<area shape="circle" coords="600, 64, 33" href="https://en.wikipedia.org/wiki/Neptune" alt="neptune">
-			<area shape="circle" coords="722, 610, 34" href="https://en.wikipedia.org/wiki/Uranus" alt="uranus">
-			<area shape="circle" coords="52, 215, 15" href="https://en.wikipedia.org/wiki/Pluto" alt="Pluto">
+			<area shape="circle" coords="320, 549, 25" href="pages/earth.html" alt="earth">
+			<area shape="circle" coords="560, 299, 30" href="pages/venus.html" alt="venus">
+			<area shape="circle" coords="222, 458, 23" href="pages/mars.html" alt="mars">
+			<area shape="circle" coords="446, 282, 21" href="pages/mercury.html" alt="mercury">
+			<area shape="circle" coords="669, 267, 37" href="pages/jupiter.html" alt="jupiter">
+			<area shape="circle" coords="759, 355, 32" href="pages/saturn.html" alt="saturn">
+			<area shape="circle" coords="600, 64, 33" href="pages/neptune.html" alt="neptune">
+			<area shape="circle" coords="722, 610, 34" href="pages/uranus.html" alt="uranus">
+			<area shape="circle" coords="52, 215, 15" href="pages/pluto.html" alt="Pluto">
 		</map>
 	</div>
 </body>
