@@ -1,9 +1,10 @@
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="author" content="Matthew Ward">
 <meta charset="UTF-8">
 <title>The Solar System</title>
-</head>
+<link rel="icon" href="images/solarsvg.svg">
 <style>
 	/*Small CSS reset */
 	body {
@@ -11,11 +12,11 @@
   		padding: 0px;
   		box-sizing: border-box;
 		background-image:url("images/stars.jpg");
+		font-family: Helvetica, Arial, sans-serif;
 	}
 
 	#head {
 		text-align:center;
-		background-color:black;
 		color:white;
 	}
 	
@@ -24,15 +25,26 @@
 		text-align:center;
 	}
 </style>
+</head>
 <body>
 	<div id="head">
 		<h1>The Solar System</h1>
+		<h2>Please click on the planet or star you would like to learn about!</h2>
 	</div>
 	
 	<div id="img">
-		<img src="images/solarsystem.png" alt="planets" usemap="#planet" width="100%">
+		<img src="images/solarsystem.png" alt="planets" usemap="#planet" width="890.4px">
 		<map name="#planet">
-			<area shape="circle" coords="444, 404, 85" href="https://www.nhc.noaa.gov/">
+			<area shape="circle" coords="444, 404, 85" href="pages/sun.html">
+			<area shape="circle" coords="320, 549, 25" href="https://en.wikipedia.org/wiki/Earth" alt="earth">
+			<area shape="circle" coords="560, 299, 30" href="https://en.wikipedia.org/wiki/Venus" alt="venus">
+			<area shape="circle" coords="222, 458, 23" href="https://en.wikipedia.org/wiki/Mars" alt="mars">
+			<area shape="circle" coords="446, 282, 21" href="https://en.wikipedia.org/wiki/Mercury_(planet)" alt="mercury">
+			<area shape="circle" coords="669, 267, 37" href="https://en.wikipedia.org/wiki/Jupiter" alt="jupiter">
+			<area shape="circle" coords="759, 355, 32" href="https://en.wikipedia.org/wiki/Saturn" alt="saturn">
+			<area shape="circle" coords="600, 64, 33" href="https://en.wikipedia.org/wiki/Neptune" alt="neptune">
+			<area shape="circle" coords="722, 610, 34" href="https://en.wikipedia.org/wiki/Uranus" alt="uranus">
+			<area shape="circle" coords="52, 215, 15" href="https://en.wikipedia.org/wiki/Pluto" alt="Pluto">
 		</map>
 	</div>
 </body>
